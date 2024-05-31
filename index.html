@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conference registration</title>
+</head>
+<body>
+  <h1>conference registration form</h1>
+  <form action="success.html" id="registrationForm">
+<label for="fname">full name:</label>
+<input type="text" name="fname" id="fname" required pattern="[A-Za-z\s]*" title="name shuld be capital and small letters">
+<br><br>
+<label for="password">password:</label>
+<input type="password" name="pass" id="pass">
+<br><br>
+<label for="date">date of birth</label>
+<input type="date" name="dob">
+<br><br>
+<label for="email">email</label>
+<input type="email" name="email" id="email" placeholder="eg like s@gmail.com">
+<br><br>
+<label for="gender">gender</label>
+<label for="">male<input type="radio" name="gender" value="male"></label>
+<label for="">female<input type="radio" name="gender" value="female"></label>
+
+<button type="submit">register</button>
+
+<!-- <checkbox-interest></checkbox-interest> -->
+<!-- years of experience -->
+
+</form>
+</body>
+</html>
